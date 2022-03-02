@@ -11,11 +11,11 @@ struct RecipeTabView: View {
     
     var body: some View {
         TabView {
-            Text("Fields View")
+            RecipeFeaturedView()
                 .tabItem {
                     VStack {
                         Image(systemName: "star")
-                        Text("Fields")
+                        Text("Feature")
                     }
                 }
             
@@ -27,7 +27,7 @@ struct RecipeTabView: View {
                     }
                 }
         }
-        .accentColor(.red)
+        .environmentObject(RecipeModel())
     }
 }
 
