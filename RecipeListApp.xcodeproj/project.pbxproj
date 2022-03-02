@@ -18,6 +18,7 @@
 		E01E63DB27CEE3B0007C0129 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E63DA27CEE3B0007C0129 /* RecipeDetailView.swift */; };
 		E060C2EB27CF08C400BD80E8 /* UIColor_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060C2EA27CF08C400BD80E8 /* UIColor_ext.swift */; };
 		E060C2F127CFE7CA00BD80E8 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060C2F027CFE7CA00BD80E8 /* RecipeTabView.swift */; };
+		E060C30D27CFFF8400BD80E8 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060C30C27CFFF8400BD80E8 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E01E63DA27CEE3B0007C0129 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		E060C2EA27CF08C400BD80E8 /* UIColor_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_ext.swift; sourceTree = "<group>"; };
 		E060C2F027CFE7CA00BD80E8 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		E060C30C27CFFF8400BD80E8 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E01E63D427CED178007C0129 /* Recipe.swift */,
+				E060C30C27CFFF8400BD80E8 /* Ingredient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				E060C2F127CFE7CA00BD80E8 /* RecipeTabView.swift in Sources */,
 				E01E63D527CED178007C0129 /* Recipe.swift in Sources */,
+				E060C30D27CFFF8400BD80E8 /* Ingredient.swift in Sources */,
 				E01E63DB27CEE3B0007C0129 /* RecipeDetailView.swift in Sources */,
 				E01E63D727CED252007C0129 /* RecipeModel.swift in Sources */,
 				E01E63C227CED005007C0129 /* RecipeListView.swift in Sources */,
